@@ -8,6 +8,22 @@
             <postback>fullstackwebdev</postback>
         </button>
         <button>
+            <text>Mobile App Developer</text>
+            <postback>mobileappdev</postback>
+        </button>
+        <button>
+            <text>Software Engineer</text>
+            <postback>swengineer</postback>
+        </button>
+        <button>
+            <text>Systems Architect</text>
+            <postback>sysarchitect</postback>
+        </button>
+        <button>
+            <text>Machine Learning Engineer</text>
+            <postback>mlengineer</postback>
+        </button>
+        <button>
             <text>Help me pick a career</text>
             <postback>careerinfo</postback>
         </button>    

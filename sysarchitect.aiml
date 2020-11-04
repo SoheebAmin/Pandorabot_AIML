@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
     
-    <category>
-    	<pattern>fullstackwebdev</pattern>
+	    <category>
+    	<pattern>sysarchitect</pattern>
         <template>
             <delay>3</delay>
-            A full stack web developer is well-versed in both front- and back-end web development. 
+            A systems architect is someone who develops and maintains computer systems and networks.
             <delay>3</delay>
-            Using knowledge of how to build applications from start to finish, a full stack developer can plan, manage, and build software. 
+            In this role you will conceptualize, plan, and design technology solutions that meet your organization’s IT architecture needs. 
             <delay>3</delay>
-            If you like to learn about new concepts and technologies, this could be an excellent career path for you. 
+            It’s important for Systems Architecture to have detailed knowledge of software engineering techniques, as they work closely with developers. 
             <delay>3</delay>
-            Job openings for web developers are estimated to grow 13% by 2026, which is faster than the average rate for every other occupation.
-            <delay>3</delay>
-            The average U.S. salary for a full stack web developer is: $88,488.
+            The average U.S. salary for a systems architect is: $108,450.
             <delay>1</delay>
             (source: Coursera Blog)
              <delay>3</delay>
@@ -30,3 +28,6 @@
     </category>
     
 </aiml>
+
+  
+

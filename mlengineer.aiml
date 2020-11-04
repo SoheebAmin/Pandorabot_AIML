@@ -2,18 +2,18 @@
 <aiml version="2.0">
     
     <category>
-    	<pattern>fullstackwebdev</pattern>
+    	<pattern>mlengineer</pattern>
         <template>
             <delay>3</delay>
-            A full stack web developer is well-versed in both front- and back-end web development. 
+            Now is a great time to pursue a career as a Machine Learning (ML) engineer. 
             <delay>3</delay>
-            Using knowledge of how to build applications from start to finish, a full stack developer can plan, manage, and build software. 
+            The number of available ML jobs increases every year, and engineers with a solid Machine Learning skill set are in high-demand in many industries.
             <delay>3</delay>
-            If you like to learn about new concepts and technologies, this could be an excellent career path for you. 
+            As a Machine Learning Engineer, it will be your job to build and deploy ML systems that can automatically learn and improve independently.
             <delay>3</delay>
-            Job openings for web developers are estimated to grow 13% by 2026, which is faster than the average rate for every other occupation.
+            A Machine Learning expert should be well versed in data structures and algorithms, how to build neural networks and structure machine learning projects, and probabilistic graphical models. A
             <delay>3</delay>
-            The average U.S. salary for a full stack web developer is: $88,488.
+            The average U.S. salary for a machine learning engineer is: $120,931.
             <delay>1</delay>
             (source: Coursera Blog)
              <delay>3</delay>
