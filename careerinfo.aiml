@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+    <pattern>careerinfo</pattern>
+    <template>So, you've chosen to learn about some careers. There are five careers that I tell you about. Choose which career you want to know more about:
+        <button>
+            <text>Full Stack Web Developer</text>
+            <postback>fullstackwebdev</postback>
+        </button>
+        <button>
+            <text>Help me pick a career</text>
+            <postback>careerinfo</postback>
+        </button>    
+    </template>
+</category>
+</aiml>

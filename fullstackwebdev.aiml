@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+    	<pattern>fullstackwebdev</pattern>
+        <template>
+            A full stack web developer is well-versed in both front- and back-end web development. 
+            <delay>3</delay>
+            Using knowledge of how to build applications from start to finish, a full stack developer can plan, manage, and build software. 
+            <delay>3</delay>
+            if you like to learn about new concepts and technologies, this could be an excellent career path for you. 
+            <delay>3</delay>
+            Job openings for web developers are estimated to grow 13% by 2026, which is faster than the average rate for every other occupation.
+            <delay>3</delay>
+            The average U.S. salary for a full stack web developer is: $88,488.
+            <delay>1</delay>
+            (source: Coursera Blog)
+             <delay>3</delay>
+            I hope that was helpful for you. What would you like to do now?
+            <button>
+                <text>Restart my career guidance</text>
+                <postback>careerguidance</postback>
+            </button>
+            <button>
+                <text>Tell me about some other careers</text>
+                <postback>careerinfo</postback>
+            </button>    
+        </template>
+    </category>
+    
+</aiml>

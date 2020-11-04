@@ -1,39 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <!-- the ultimate default category -->
-  <category>
-    <pattern>*</pattern>
-    <template>
-        <random>
-        <li>What was that?</li>
-        <li>I don’t understand</li>
-        <li>Can you say that more clearly?</li>
-        <li>You have to try again</li>
-        <li>I'm sorry, I don't understand you</li>
-        <li>I can't understand what you are trying to say</li> 
-        <li>Sorry, that does not compute</li>
-        </random>
-    </template> 
-  </category>
-<category>
-    <pattern>Hi ^</pattern>
-    <template>Hello!</template>
-</category>
-<category>
-    <pattern>Hello ^</pattern>
-    <template>Hello there!</template>
-</category>
-<category>
-    <pattern>Hey</pattern>
-    <template>Hey to you, too!</template>
-</category>
-<category>
-    <pattern>I have a question</pattern>
-    <template>I'm not programmed to handle open-ended questions. This AI isn't there just yet!</template>
-</category>
-<category>
-    <!-- a category just for testing anything and its ability to detect/respond. -->
-    <pattern>Test Phrase Here</pattern>
-    <template>Success</template>
-</category>
+    
+    <category>
+        <pattern>*</pattern>
+        <template>Hello, I am GuiderBot. Welcome to your AI-driven career advice session. Choose what you would like to do.
+                <button>
+                    <text>Start my career guidance</text>
+                    <postback>careerguidance</postback>
+                </button>
+                <button>
+                    <text>Tell me about some careers</text>
+                    <postback>careerinfo</postback>
+                </button>    
+        </template>
+    </category>
+    
 </aiml>

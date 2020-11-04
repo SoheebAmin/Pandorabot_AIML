@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    
+    <category>
+        <pattern>careerguidance</pattern>
+        <template>Welcome! I am the student career bot for the department of Computer Science.
+        <delay>2</delay>
+        We are going to help you narrow into a career choice today.
+        <delay>2</delay>
+        Can you start by telling me if... 
+            <button>
+                <text>Yes</text>
+                <postback>Yes</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>No</postback>
+            </button>    
+        </template>
+    </category>
+    
+</aiml>
