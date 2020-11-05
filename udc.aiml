@@ -3,15 +3,30 @@
     
     <category>
         <pattern>*</pattern>
-        <template>Hello, I am GuiderBot. Welcome to your AI-driven career advice session. Choose what you would like to do.
-                <button>
-                    <text>Start my career guidance</text>
-                    <postback>careerguidance</postback>
-                </button>
-                <button>
-                    <text>Tell me about some careers</text>
-                    <postback>careerinfo</postback>
-                </button>    
+        <template>
+            <delay>2</delay>
+            Hey, let's not get ahead of ourselves here! 
+            <delay>2</delay>
+            How about typing a simple "hello" to begin?
+        </template>
+    </category>
+    
+    
+    <category>
+        <pattern>hello</pattern>
+        <template>
+            <delay>3</delay>
+            Hello, I am GuiderBot. Welcome to your AI-driven career advice session. 
+            <delay>3</delay>
+            Choose what you would like to do.
+            <button>
+                <text>Start my career guidance</text>
+                <postback>careerguidance</postback>
+            </button>
+            <button>
+                <text>Tell me about some careers</text>
+                <postback>careerinfo</postback>
+            </button>    
         </template>
     </category>
     
