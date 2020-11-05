@@ -25,7 +25,7 @@
         </button>
         <button>
             <text>Help me pick a career</text>
-            <postback>careerinfo</postback>
+            <postback>careerguidance</postback>
         </button>    
     </template>
 </category>

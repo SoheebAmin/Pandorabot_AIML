@@ -8,16 +8,132 @@
         <delay>2</delay>
         We are going to help you narrow into a career choice today.
         <delay>2</delay>
-        Can you start by telling me if... 
+        Can you start by telling me if you are more interested in working on design, logic, or both?
             <button>
-                <text>Yes</text>
-                <postback>Yes</postback>
+                <text>I'm a design person</text>
+                <postback>after design</postback>
             </button>
             <button>
-                <text>No</text>
-                <postback>No</postback>
+                <text>I'm a logic person person</text>
+                <postback>after logic</postback>
+            </button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>after design</pattern>
+        <template>
+        <delay>3</delay>
+        Okay, so by design, do you mean artistic design, or designing for effeciency?
+            <button>
+                <text>Artistic design</text>
+                <postback>full stack web dev decision</postback>
+            </button>
+            <button>
+                <text>I'm all about effeciency</text>
+                <postback>system architect decision</postback>
             </button>    
         </template>
     </category>
+    
+    <category>
+        <pattern>after logic</pattern>
+        <template>
+        <delay>3</delay>
+        Okay, so you like working with logic. Do you want to write traditional code, or branch out into creating learning models?
+            <button>
+                <text>Traditional code is where I am comfortable</text>
+                <postback>after traditional code</postback>
+            </button>
+            <button>
+                <text>learning models interest me more</text>
+                <postback>machine learning engineer decision</postback>
+            </button>    
+        </template>
+    </category>
+    
+        
+    <category>
+        <pattern>after traditional code</pattern>
+        <template>
+        <delay>3</delay>
+        Okay, so you like coding. Are you more interested in computer applications or mobile apps?
+            <button>
+                <text>I like writing computer applications</text>
+                <postback>software engineer decision</postback>
+            </button>
+            <button>
+                <text>Mobile applications are more my thing</text>
+                <postback>mobile app developer decision</postback>
+            </button>    
+        </template>
+    </category>
+    
+    
+    
+    <category>
+        <pattern>full stack web dev decision</pattern>
+            <template>
+            <delay>3</delay>
+            Based on your responses, I've determined that you may be most interested in becoming a full stack web developer
+            <button>
+                <text>Tell me more</text>
+                <postback>fullstackwebdev</postback>
+            </button>
+        </template>
+    </category>
+    
+        
+    <category>
+        <pattern>mobile app developer decision</pattern>
+            <template>
+            <delay>3</delay>
+            Based on your responses, I've determined that you may be most interested in becoming a mobile app developer
+            <button>
+                <text>Tell me more</text>
+                <postback>mobileappdev</postback>
+            </button>
+        </template>
+    </category>
+    
+        
+    <category>
+        <pattern>system architect decision</pattern>
+            <template>
+            <delay>3</delay>
+            Based on your responses, I've determined that you may be most interested in becoming a system architect
+            <button>
+                <text>Tell me more</text>
+                <postback>sysarchitect</postback>
+            </button>
+        </template>
+    </category>
+    
+        
+    <category>
+        <pattern>machine learning engineer decision</pattern>
+            <template>
+            <delay>3</delay>
+            Based on your responses, I've determined that you may be most interested in becoming a machine learning engineer
+            <button>
+                <text>Tell me more</text>
+                <postback>mlengineer</postback>
+            </button>
+        </template>
+    </category>
+    
+        
+    <category>
+        <pattern>software engineer decision</pattern>
+            <template>
+            <delay>3</delay>
+            Based on your responses, I've determined that you may be most interested in becoming a software engineer
+            <button>
+                <text>Tell me more</text>
+                <postback>swengineer</postback>
+            </button>
+        </template>
+    </category>
+    
     
 </aiml>
